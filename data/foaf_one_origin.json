@@ -1,0 +1,2376 @@
+{
+	"header": {
+		"languages": [
+			"en",
+			"undefined"
+		],
+		"baseIris": [
+			"http://www.w3.org/1999/02/22-rdf-syntax-ns",
+			"http://blankdots.com/open/personasonto.owl",
+			"http://www.w3.org/2000/01/rdf-schema",
+			"http://www.w3.org/2001/XMLSchema"
+		],
+		"title": {
+			"en": "PersonasOnto"
+		},
+		"iri": "http://blankdots.com/open/personasonto.owl",
+		"version": "1.5",
+		"author": [
+			"Stefan Negru"
+		],
+		"description": {
+			"en": "The PersonasOnto is depicts the personas domain along with relating concept and properties. A persona is regarded as a user archetype which can be used to \"help guide decisions about product features, navigation, interactions, and even visual design\" (Goodwin, 2005).\n\nThis ontology wants to address some of the issues regarding this methodology like how personas are reconciled with other information and who is responsible for interpreting and validating them."
+		},
+		"comments": {
+			"en": "PersonasOnto ontology incorporates concepts and properties used to model personas."
+		},
+		"other": {
+			"date": [
+				{
+					"identifier": "date",
+					"language": "undefined",
+					"value": "2014-02-28",
+					"type": "label"
+				}
+			],
+			"creator": [
+				{
+					"identifier": "creator",
+					"language": "undefined",
+					"value": "Stefan Negru",
+					"type": "label"
+				}
+			],
+			"contributor": [
+				{
+					"identifier": "contributor",
+					"language": "undefined",
+					"value": "Sabin Buraga",
+					"type": "label"
+				}
+			],
+			"rights": [
+				{
+					"identifier": "rights",
+					"language": "undefined",
+					"value": "This ontology is distributed under Attribution-ShareAlike 3.0 Unported - http://creativecommons.org/licenses/by-sa/3.0/",
+					"type": "label"
+				}
+			],
+			"versionInfo": [
+				{
+					"identifier": "versionInfo",
+					"language": "undefined",
+					"value": "1.5",
+					"type": "label"
+				}
+			],
+			"title": [
+				{
+					"identifier": "title",
+					"language": "en",
+					"value": "PersonasOnto",
+					"type": "label"
+				}
+			],
+			"seeAlso": [
+				{
+					"identifier": "seeAlso",
+					"language": "undefined",
+					"value": "http://blankdots.com/open/schema",
+					"type": "label"
+				}
+			]
+		}
+	},
+	"_comment": "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+	"namespace": [],
+	"class": [
+		{
+			"id": "1",
+			"type": "owl:Class",
+			"level": 1
+		}, {
+			"id": "101",
+			"type": "owl:Class",
+			"level": 2
+		}, {
+			"id": "201",
+			"type": "owl:Class",
+			"level": 3
+		}, {
+			"id": "3001",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4001",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4002",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4003",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4004",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4005",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4006",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4007",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4008",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4009",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4010",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4011",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4012",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4013",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4014",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4015",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4016",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "3002",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4017",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4018",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4019",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4020",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4021",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4022",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4023",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4024",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4025",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4026",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4027",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4028",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4029",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4030",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "3003",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4031",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4032",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4033",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4034",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4035",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4036",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4037",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4038",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4039",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4040",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4041",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "202",
+			"type": "owl:Class",
+			"level": 3
+		}, {
+			"id": "3004",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4042",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4043",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4044",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4045",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4046",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4047",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4048",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4049",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4050",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4051",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4052",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4053",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4054",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4055",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "3005",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4056",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4057",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4058",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4059",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4060",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4061",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4062",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4063",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4064",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4065",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4066",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4067",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4068",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4069",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4070",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "3006",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4071",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4072",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4073",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4074",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4075",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4076",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "203",
+			"type": "owl:Class",
+			"level": 3
+		}, {
+			"id": "3007",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4077",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4078",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4079",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4080",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4081",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4082",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "3008",
+			"type": "owl:Class",
+			"level": 4
+		}, {
+			"id": "4083",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4084",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4085",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4086",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4087",
+			"type": "owl:Class",
+			"level": 5
+		}, {
+			"id": "4088",
+			"type": "owl:Class",
+			"level": 5
+		}
+	],
+	"classAttribute": [
+		{
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "高中数学"
+			},
+			"id": "1",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "必修1"
+			},
+			"id": "101",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "第1章 集合与函数概念"
+			},
+			"id": "201",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合"
+			},
+			"id": "3001",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合的含义"
+			},
+			"id": "4001",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：27%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">44</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "27%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "元素与集合关系的判断"
+			},
+			"id": "4002",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：97%</p>\n\t\t\t\t\t\t\t<p>优秀率：41%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">24</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "41%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合的确定性、互异性、无序性"
+			},
+			"id": "4003",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：19</p>\n\t\t\t\t\t\t\t<p>完成率：90%</p>\n\t\t\t\t\t\t\t<p>优秀率：37%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">27</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "37%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合的分类"
+			},
+			"id": "4004",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：93%</p>\n\t\t\t\t\t\t\t<p>优秀率：9%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">28</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "9%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合的表示法"
+			},
+			"id": "4005",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：35%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "35%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "子集与真子集"
+			},
+			"id": "4006",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：95%</p>\n\t\t\t\t\t\t\t<p>优秀率：32%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">33</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "32%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合的包含关系判断及应用"
+			},
+			"id": "4007",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：95%</p>\n\t\t\t\t\t\t\t<p>优秀率：37%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "37%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合的相等"
+			},
+			"id": "4008",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：15%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">43</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "15%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "集合中元素个数的最值"
+			},
+			"id": "4009",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：250</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：25%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">37</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "25%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "空集的定义、性质及运算"
+			},
+			"id": "4010",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：1192</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：49%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "49%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "并集及其运算"
+			},
+			"id": "4011",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：90%</p>\n\t\t\t\t\t\t\t<p>优秀率：28%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "28%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "交集及其运算"
+			},
+			"id": "4012",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：27%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">24</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "27%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "补集及其运算"
+			},
+			"id": "4013",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：95%</p>\n\t\t\t\t\t\t\t<p>优秀率：53%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">30</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "53%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "全集及其运算"
+			},
+			"id": "4014",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：3%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">36</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "3%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "交、并、补集的混合运算"
+			},
+			"id": "4015",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：92%</p>\n\t\t\t\t\t\t\t<p>优秀率：51%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">28</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "51%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "Venn图表达集合的关系及运算"
+			},
+			"id": "4016",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：92%</p>\n\t\t\t\t\t\t\t<p>优秀率：11%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">39</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "11%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数及其表示"
+			},
+			"id": "3002",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的概念及其构成要素"
+			},
+			"id": "4017",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：133</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：7%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "7%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "判断两个函数是否为同一函数"
+			},
+			"id": "4018",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：34%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">19</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "34%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的定义域及其求法"
+			},
+			"id": "4019",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：581</p>\n\t\t\t\t\t\t\t<p>完成率：87%</p>\n\t\t\t\t\t\t\t<p>优秀率：27%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "27%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的值域"
+			},
+			"id": "4020",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：125</p>\n\t\t\t\t\t\t\t<p>完成率：82%</p>\n\t\t\t\t\t\t\t<p>优秀率：14%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">22</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "14%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "区间与无穷的概念"
+			},
+			"id": "4021",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：49%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">23</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "49%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的图象"
+			},
+			"id": "4022",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：46%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">27</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "46%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的值"
+			},
+			"id": "4023",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：88%</p>\n\t\t\t\t\t\t\t<p>优秀率：32%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">22</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "32%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的图象与图象变化"
+			},
+			"id": "4024",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：27%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">30</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">13</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "27%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数解析式的求解及常用方法"
+			},
+			"id": "4025",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：13%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">41</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "13%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的表示方法"
+			},
+			"id": "4026",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：576</p>\n\t\t\t\t\t\t\t<p>完成率：70%</p>\n\t\t\t\t\t\t\t<p>优秀率：5%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "5%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的对应法则"
+			},
+			"id": "4027",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：97%</p>\n\t\t\t\t\t\t\t<p>优秀率：29%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">31</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "29%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数图象的作法"
+			},
+			"id": "4028",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：208</p>\n\t\t\t\t\t\t\t<p>完成率：63%</p>\n\t\t\t\t\t\t\t<p>优秀率：26%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">22</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "26%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "分段函数的解析式求法及其图象的作法"
+			},
+			"id": "4029",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：281</p>\n\t\t\t\t\t\t\t<p>完成率：65%</p>\n\t\t\t\t\t\t\t<p>优秀率：49%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">19</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "49%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "映射"
+			},
+			"id": "4030",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：253</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：15%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">51</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "15%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的基本性质"
+			},
+			"id": "3003",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的单调性及单调区间"
+			},
+			"id": "4031",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：139</p>\n\t\t\t\t\t\t\t<p>完成率：80%</p>\n\t\t\t\t\t\t\t<p>优秀率：23%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "23%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数单调性的判断与证明"
+			},
+			"id": "4032",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：55%</p>\n\t\t\t\t\t\t\t<p>优秀率：15%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">27</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "15%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数单调性的性质"
+			},
+			"id": "4033",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：100</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：12%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">28</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "12%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "复合函数的单调性"
+			},
+			"id": "4034",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：292</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：45%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">27</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">22</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "45%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的最值及其几何意义"
+			},
+			"id": "4035",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：708</p>\n\t\t\t\t\t\t\t<p>完成率：95%</p>\n\t\t\t\t\t\t\t<p>优秀率：19%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "19%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "奇函数"
+			},
+			"id": "4036",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：67</p>\n\t\t\t\t\t\t\t<p>完成率：90%</p>\n\t\t\t\t\t\t\t<p>优秀率：9%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">38</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "9%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "偶函数"
+			},
+			"id": "4037",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：93%</p>\n\t\t\t\t\t\t\t<p>优秀率：43%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">24</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">13</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "43%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数奇偶性的判断"
+			},
+			"id": "4038",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：3%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">56</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "3%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数奇偶性的性质"
+			},
+			"id": "4039",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：42</p>\n\t\t\t\t\t\t\t<p>完成率：82%</p>\n\t\t\t\t\t\t\t<p>优秀率：37%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "37%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "奇偶函数图象的对称性"
+			},
+			"id": "4040",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：93%</p>\n\t\t\t\t\t\t\t<p>优秀率：46%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "46%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "奇偶性与单调性的综合"
+			},
+			"id": "4041",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：92%</p>\n\t\t\t\t\t\t\t<p>优秀率：31%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">31</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "31%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "第2章 基本初等函数（Ⅰ）"
+			},
+			"id": "202",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数"
+			},
+			"id": "3004",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "正整数指数函数"
+			},
+			"id": "4042",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：90%</p>\n\t\t\t\t\t\t\t<p>优秀率：26%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">35</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "26%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "方根与根式及根式的化简运算"
+			},
+			"id": "4043",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：37%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">22</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "37%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "分数指数幂"
+			},
+			"id": "4044",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：87%</p>\n\t\t\t\t\t\t\t<p>优秀率：52%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">27</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "52%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "根式与分数指数幂的互化及其化简运算"
+			},
+			"id": "4045",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：80%</p>\n\t\t\t\t\t\t\t<p>优秀率：48%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">23</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "48%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "有理数指数幂的运算性质"
+			},
+			"id": "4046",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：0</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：20%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "20%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "有理数指数幂的化简求值"
+			},
+			"id": "4047",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：222</p>\n\t\t\t\t\t\t\t<p>完成率：95%</p>\n\t\t\t\t\t\t\t<p>优秀率：19%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">19</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "19%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数型复合函数的性质及应用"
+			},
+			"id": "4048",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：92%</p>\n\t\t\t\t\t\t\t<p>优秀率：45%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "45%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数的定义、解析式、定义域和值域"
+			},
+			"id": "4049",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：33%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">33</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "33%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数的图像与性质"
+			},
+			"id": "4050",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：0%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">24</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "0%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数的图像变换"
+			},
+			"id": "4051",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：167</p>\n\t\t\t\t\t\t\t<p>完成率：65%</p>\n\t\t\t\t\t\t\t<p>优秀率：3%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "3%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数的单调性与特殊点"
+			},
+			"id": "4052",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：392</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：17%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">35</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "17%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数单调性的应用"
+			},
+			"id": "4053",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：87%</p>\n\t\t\t\t\t\t\t<p>优秀率：21%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">23</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "21%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数的实际应用"
+			},
+			"id": "4054",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：77%</p>\n\t\t\t\t\t\t\t<p>优秀率：7%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">13</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "7%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数综合题"
+			},
+			"id": "4055",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：18%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">44</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "18%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数"
+			},
+			"id": "3005",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数的概念"
+			},
+			"id": "4056",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：83</p>\n\t\t\t\t\t\t\t<p>完成率：75%</p>\n\t\t\t\t\t\t\t<p>优秀率：18%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "18%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数式与对数式的互化"
+			},
+			"id": "4057",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：211</p>\n\t\t\t\t\t\t\t<p>完成率：80%</p>\n\t\t\t\t\t\t\t<p>优秀率：48%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">23</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">13</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "48%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数的运算性质"
+			},
+			"id": "4058",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：0</p>\n\t\t\t\t\t\t\t<p>完成率：88%</p>\n\t\t\t\t\t\t\t<p>优秀率：57%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">30</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">13</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "57%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "换底公式的应用"
+			},
+			"id": "4059",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：47%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">28</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">16</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "47%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数的定义"
+			},
+			"id": "4060",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：3%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">53</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "3%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数的定义域"
+			},
+			"id": "4061",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：83</p>\n\t\t\t\t\t\t\t<p>完成率：52%</p>\n\t\t\t\t\t\t\t<p>优秀率：61%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">19</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "61%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数的值域与最值"
+			},
+			"id": "4062",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：13%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "13%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数值大小的比较"
+			},
+			"id": "4063",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：117</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：42%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">32</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "42%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数的图像与性质"
+			},
+			"id": "4064",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：44%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">13</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "44%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数的单调性与特殊点"
+			},
+			"id": "4065",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：93%</p>\n\t\t\t\t\t\t\t<p>优秀率：2%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">10</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">31</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "2%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数的单调区间"
+			},
+			"id": "4066",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：77%</p>\n\t\t\t\t\t\t\t<p>优秀率：63%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "63%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "指数函数与对数函数的关系"
+			},
+			"id": "4067",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：167</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：48%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">14</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "48%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "反函数"
+			},
+			"id": "4068",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：139</p>\n\t\t\t\t\t\t\t<p>完成率：72%</p>\n\t\t\t\t\t\t\t<p>优秀率：40%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "40%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "求对数函数解析式"
+			},
+			"id": "4069",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：50</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：33%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">34</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "33%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数图象与性质的综合应用"
+			},
+			"id": "4070",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：342</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：44%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">28</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "44%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "幂函数"
+			},
+			"id": "3006",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "幂函数的概念、解析式、定义域、值域"
+			},
+			"id": "4071",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：250</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：49%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">24</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "49%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "幂函数的图像"
+			},
+			"id": "4072",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：67%</p>\n\t\t\t\t\t\t\t<p>优秀率：18%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">24</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">20</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "18%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "幂函数图象及其与指数的关系"
+			},
+			"id": "4073",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：30%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "30%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "幂函数的性质"
+			},
+			"id": "4074",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：90%</p>\n\t\t\t\t\t\t\t<p>优秀率：13%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">27</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">15</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "13%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "幂函数的单调性、奇偶性及其应用"
+			},
+			"id": "4075",
+			"comment": {
+				"en": "<p>难易度：中</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：37%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">22</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">30</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "37%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "幂函数的实际应用"
+			},
+			"id": "4076",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：95%</p>\n\t\t\t\t\t\t\t<p>优秀率：4%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">17</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">37</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "4%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "第3章 函数的应用"
+			},
+			"id": "203",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数与方程"
+			},
+			"id": "3007",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的零点"
+			},
+			"id": "4077",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：85%</p>\n\t\t\t\t\t\t\t<p>优秀率：14%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">42</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "14%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数零点的判定定理"
+			},
+			"id": "4078",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：53%</p>\n\t\t\t\t\t\t\t<p>优秀率：6%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">19</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">28</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "6%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数的零点与方程根的关系"
+			},
+			"id": "4079",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：50%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">30</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">19</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "50%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "根的存在性及根的个数判断"
+			},
+			"id": "4080",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：194</p>\n\t\t\t\t\t\t\t<p>完成率：58%</p>\n\t\t\t\t\t\t\t<p>优秀率：54%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">19</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">25</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "54%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "二分法的定义"
+			},
+			"id": "4081",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：37%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">22</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">24</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "37%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "二分法求方程的近似解"
+			},
+			"id": "4082",
+			"comment": {
+				"en": "<p>难易度：难</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：100%</p>\n\t\t\t\t\t\t\t<p>优秀率：12%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">32</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "12%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数模型及其应用"
+			},
+			"id": "3008",
+			"comment": {}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数、指数函数与幂函数的增长差异"
+			},
+			"id": "4083",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：95%</p>\n\t\t\t\t\t\t\t<p>优秀率：16%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">37</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">7</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">4</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "16%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "对数函数、指数函数与幂函数的衰减差异"
+			},
+			"id": "4084",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：92%</p>\n\t\t\t\t\t\t\t<p>优秀率：42%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">23</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">9</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "42%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数最值的应用"
+			},
+			"id": "4085",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：92%</p>\n\t\t\t\t\t\t\t<p>优秀率：15%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">8</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">29</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">6</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">5</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "15%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "分段函数的应用"
+			},
+			"id": "4086",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：500</p>\n\t\t\t\t\t\t\t<p>完成率：62%</p>\n\t\t\t\t\t\t\t<p>优秀率：57%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">21</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">3</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">12</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">23</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "57%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "根据实际问题选择函数类型"
+			},
+			"id": "4087",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：0</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：44%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">26</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">30</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">2</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "44%"
+			}
+		}, {
+			"iri": "http://blankdots.com/open/personasonto.owl#PersonSubClass",
+			"instances": 0,
+			"label": {
+				"IRI-based": "函数模型的选择与应用"
+			},
+			"id": "4088",
+			"comment": {
+				"en": "<p>难易度：易</p>\n\t\t\t\t\t\t\t<p>考频值：<10</p>\n\t\t\t\t\t\t\t<p>完成率：98%</p>\n\t\t\t\t\t\t\t<p>优秀率：31%</p>\n\t\t\t\t\t\t\t<p>优：<span id=\"goodScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">18</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #54BA78;\"></span></p>\n\t\t\t\t\t\t\t<p>良：<span id=\"satisScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">11</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #5A78C3;\"></span></p>\n\t\t\t\t\t\t\t<p>中：<span id=\"mediumScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">30</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #9B6DC3;\"></span></p>\n\t\t\t\t\t\t\t<p>差：<span id=\"badScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">0</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #FAC842;\"></span></p>\n\t\t\t\t\t\t\t<p>未：<span id=\"unknownScore\" style=\"color: #333333; font-family: \"microsoft yahei\";\">1</span><span style=\"display:inline-block; float: right; height: 14px; width: 50px; margin-right: 3em; background: #F85555;\"></span></p>",
+				"goods": "31%"
+			}
+		}
+	],
+	"property": [
+		{
+			"id": 10000,
+			"type": "owl:objectProperty",
+			"level": 1
+		}, {
+			"id": 10001,
+			"type": "owl:objectProperty",
+			"level": 2
+		}, {
+			"id": 10002,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10003,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10004,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10005,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10006,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10007,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10008,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10009,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10010,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10011,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10012,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10013,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10014,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10015,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10016,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10017,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10018,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10019,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10020,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10021,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10022,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10023,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10024,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10025,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10026,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10027,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10028,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10029,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10030,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10031,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10032,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10033,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10034,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10035,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10036,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10037,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10038,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10039,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10040,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10041,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10042,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10043,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10044,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10045,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10046,
+			"type": "owl:objectProperty",
+			"level": 2
+		}, {
+			"id": 10047,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10048,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10049,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10050,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10051,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10052,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10053,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10054,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10055,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10056,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10057,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10058,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10059,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10060,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10061,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10062,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10063,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10064,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10065,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10066,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10067,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10068,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10069,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10070,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10071,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10072,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10073,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10074,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10075,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10076,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10077,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10078,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10079,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10080,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10081,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10082,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10083,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10084,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10085,
+			"type": "owl:objectProperty",
+			"level": 2
+		}, {
+			"id": 10086,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10087,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10088,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10089,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10090,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10091,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10092,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10093,
+			"type": "owl:objectProperty",
+			"level": 3
+		}, {
+			"id": 10094,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10095,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10096,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10097,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10098,
+			"type": "owl:objectProperty",
+			"level": 4
+		}, {
+			"id": 10099,
+			"type": "owl:objectProperty",
+			"level": 4
+		}
+	],
+	"propertyAttribute": [
+		{
+			"id": 10000,
+			"range": "101",
+			"domain": "1"
+		}, {
+			"id": 10001,
+			"range": "201",
+			"domain": "101"
+		}, {
+			"id": 10002,
+			"range": "3001",
+			"domain": "201"
+		}, {
+			"id": 10003,
+			"range": "4001",
+			"domain": "3001"
+		}, {
+			"id": 10004,
+			"range": "4002",
+			"domain": "3001"
+		}, {
+			"id": 10005,
+			"range": "4003",
+			"domain": "3001"
+		}, {
+			"id": 10006,
+			"range": "4004",
+			"domain": "3001"
+		}, {
+			"id": 10007,
+			"range": "4005",
+			"domain": "3001"
+		}, {
+			"id": 10008,
+			"range": "4006",
+			"domain": "3001"
+		}, {
+			"id": 10009,
+			"range": "4007",
+			"domain": "3001"
+		}, {
+			"id": 10010,
+			"range": "4008",
+			"domain": "3001"
+		}, {
+			"id": 10011,
+			"range": "4009",
+			"domain": "3001"
+		}, {
+			"id": 10012,
+			"range": "4010",
+			"domain": "3001"
+		}, {
+			"id": 10013,
+			"range": "4011",
+			"domain": "3001"
+		}, {
+			"id": 10014,
+			"range": "4012",
+			"domain": "3001"
+		}, {
+			"id": 10015,
+			"range": "4013",
+			"domain": "3001"
+		}, {
+			"id": 10016,
+			"range": "4014",
+			"domain": "3001"
+		}, {
+			"id": 10017,
+			"range": "4015",
+			"domain": "3001"
+		}, {
+			"id": 10018,
+			"range": "4016",
+			"domain": "3001"
+		}, {
+			"id": 10019,
+			"range": "3002",
+			"domain": "201"
+		}, {
+			"id": 10020,
+			"range": "4017",
+			"domain": "3002"
+		}, {
+			"id": 10021,
+			"range": "4018",
+			"domain": "3002"
+		}, {
+			"id": 10022,
+			"range": "4019",
+			"domain": "3002"
+		}, {
+			"id": 10023,
+			"range": "4020",
+			"domain": "3002"
+		}, {
+			"id": 10024,
+			"range": "4021",
+			"domain": "3002"
+		}, {
+			"id": 10025,
+			"range": "4022",
+			"domain": "3002"
+		}, {
+			"id": 10026,
+			"range": "4023",
+			"domain": "3002"
+		}, {
+			"id": 10027,
+			"range": "4024",
+			"domain": "3002"
+		}, {
+			"id": 10028,
+			"range": "4025",
+			"domain": "3002"
+		}, {
+			"id": 10029,
+			"range": "4026",
+			"domain": "3002"
+		}, {
+			"id": 10030,
+			"range": "4027",
+			"domain": "3002"
+		}, {
+			"id": 10031,
+			"range": "4028",
+			"domain": "3002"
+		}, {
+			"id": 10032,
+			"range": "4029",
+			"domain": "3002"
+		}, {
+			"id": 10033,
+			"range": "4030",
+			"domain": "3002"
+		}, {
+			"id": 10034,
+			"range": "3003",
+			"domain": "201"
+		}, {
+			"id": 10035,
+			"range": "4031",
+			"domain": "3003"
+		}, {
+			"id": 10036,
+			"range": "4032",
+			"domain": "3003"
+		}, {
+			"id": 10037,
+			"range": "4033",
+			"domain": "3003"
+		}, {
+			"id": 10038,
+			"range": "4034",
+			"domain": "3003"
+		}, {
+			"id": 10039,
+			"range": "4035",
+			"domain": "3003"
+		}, {
+			"id": 10040,
+			"range": "4036",
+			"domain": "3003"
+		}, {
+			"id": 10041,
+			"range": "4037",
+			"domain": "3003"
+		}, {
+			"id": 10042,
+			"range": "4038",
+			"domain": "3003"
+		}, {
+			"id": 10043,
+			"range": "4039",
+			"domain": "3003"
+		}, {
+			"id": 10044,
+			"range": "4040",
+			"domain": "3003"
+		}, {
+			"id": 10045,
+			"range": "4041",
+			"domain": "3003"
+		}, {
+			"id": 10046,
+			"range": "202",
+			"domain": "101"
+		}, {
+			"id": 10047,
+			"range": "3004",
+			"domain": "202"
+		}, {
+			"id": 10048,
+			"range": "4042",
+			"domain": "3004"
+		}, {
+			"id": 10049,
+			"range": "4043",
+			"domain": "3004"
+		}, {
+			"id": 10050,
+			"range": "4044",
+			"domain": "3004"
+		}, {
+			"id": 10051,
+			"range": "4045",
+			"domain": "3004"
+		}, {
+			"id": 10052,
+			"range": "4046",
+			"domain": "3004"
+		}, {
+			"id": 10053,
+			"range": "4047",
+			"domain": "3004"
+		}, {
+			"id": 10054,
+			"range": "4048",
+			"domain": "3004"
+		}, {
+			"id": 10055,
+			"range": "4049",
+			"domain": "3004"
+		}, {
+			"id": 10056,
+			"range": "4050",
+			"domain": "3004"
+		}, {
+			"id": 10057,
+			"range": "4051",
+			"domain": "3004"
+		}, {
+			"id": 10058,
+			"range": "4052",
+			"domain": "3004"
+		}, {
+			"id": 10059,
+			"range": "4053",
+			"domain": "3004"
+		}, {
+			"id": 10060,
+			"range": "4054",
+			"domain": "3004"
+		}, {
+			"id": 10061,
+			"range": "4055",
+			"domain": "3004"
+		}, {
+			"id": 10062,
+			"range": "3005",
+			"domain": "202"
+		}, {
+			"id": 10063,
+			"range": "4056",
+			"domain": "3005"
+		}, {
+			"id": 10064,
+			"range": "4057",
+			"domain": "3005"
+		}, {
+			"id": 10065,
+			"range": "4058",
+			"domain": "3005"
+		}, {
+			"id": 10066,
+			"range": "4059",
+			"domain": "3005"
+		}, {
+			"id": 10067,
+			"range": "4060",
+			"domain": "3005"
+		}, {
+			"id": 10068,
+			"range": "4061",
+			"domain": "3005"
+		}, {
+			"id": 10069,
+			"range": "4062",
+			"domain": "3005"
+		}, {
+			"id": 10070,
+			"range": "4063",
+			"domain": "3005"
+		}, {
+			"id": 10071,
+			"range": "4064",
+			"domain": "3005"
+		}, {
+			"id": 10072,
+			"range": "4065",
+			"domain": "3005"
+		}, {
+			"id": 10073,
+			"range": "4066",
+			"domain": "3005"
+		}, {
+			"id": 10074,
+			"range": "4067",
+			"domain": "3005"
+		}, {
+			"id": 10075,
+			"range": "4068",
+			"domain": "3005"
+		}, {
+			"id": 10076,
+			"range": "4069",
+			"domain": "3005"
+		}, {
+			"id": 10077,
+			"range": "4070",
+			"domain": "3005"
+		}, {
+			"id": 10078,
+			"range": "3006",
+			"domain": "202"
+		}, {
+			"id": 10079,
+			"range": "4071",
+			"domain": "3006"
+		}, {
+			"id": 10080,
+			"range": "4072",
+			"domain": "3006"
+		}, {
+			"id": 10081,
+			"range": "4073",
+			"domain": "3006"
+		}, {
+			"id": 10082,
+			"range": "4074",
+			"domain": "3006"
+		}, {
+			"id": 10083,
+			"range": "4075",
+			"domain": "3006"
+		}, {
+			"id": 10084,
+			"range": "4076",
+			"domain": "3006"
+		}, {
+			"id": 10085,
+			"range": "203",
+			"domain": "101"
+		}, {
+			"id": 10086,
+			"range": "3007",
+			"domain": "203"
+		}, {
+			"id": 10087,
+			"range": "4077",
+			"domain": "3007"
+		}, {
+			"id": 10088,
+			"range": "4078",
+			"domain": "3007"
+		}, {
+			"id": 10089,
+			"range": "4079",
+			"domain": "3007"
+		}, {
+			"id": 10090,
+			"range": "4080",
+			"domain": "3007"
+		}, {
+			"id": 10091,
+			"range": "4081",
+			"domain": "3007"
+		}, {
+			"id": 10092,
+			"range": "4082",
+			"domain": "3007"
+		}, {
+			"id": 10093,
+			"range": "3008",
+			"domain": "203"
+		}, {
+			"id": 10094,
+			"range": "4083",
+			"domain": "3008"
+		}, {
+			"id": 10095,
+			"range": "4084",
+			"domain": "3008"
+		}, {
+			"id": 10096,
+			"range": "4085",
+			"domain": "3008"
+		}, {
+			"id": 10097,
+			"range": "4086",
+			"domain": "3008"
+		}, {
+			"id": 10098,
+			"range": "4087",
+			"domain": "3008"
+		}, {
+			"id": 10099,
+			"range": "4088",
+			"domain": "3008"
+		}
+	]
+}
